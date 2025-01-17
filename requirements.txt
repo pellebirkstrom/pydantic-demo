@@ -1,2 +1,5 @@
 pydantic
 pytest
+python-dotenv
+openai
+instructor
