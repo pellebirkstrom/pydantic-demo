@@ -21,6 +21,7 @@ def main():
         model="gpt-4o-mini",
         response_model=UserInfo,
         messages=[{"role": "user", "content": "John Doe is 30 years old."}],
+        max_retries=3,
     )
 
     print(user_info.name)
